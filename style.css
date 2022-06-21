@@ -103,8 +103,8 @@ main {
     padding: 40px 80px 0 80px;
     border: 1px solid hsl(208, 11%, 85%);
     border-radius: 3%;
-    outline: hsl(208, 11%, 85%) solid 2px;
-    box-shadow: 2px 2px hsl(208, 11%, 85%);
+    /*box-shadow: 2px 2px hsl(208, 11%, 85%);*/
+    box-shadow: hsl(208, 11%, 85%) 0px 7px 15px 0px;
     display: flex;
 }
 .section div {

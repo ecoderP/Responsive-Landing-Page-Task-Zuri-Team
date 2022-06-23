@@ -128,3 +128,107 @@ main {
     flex-direction: column;
     justify-content: center;
 }
+
+/*=====Footer styles =====*/
+footer {
+    width: 100%;
+    height: 90vh;
+    margin-top: 200px;
+    padding: 80px 20px 50px 20px;
+    background-color: hsl(192, 100%, 9%);
+    position: relative;
+}
+.footer-call-to-action {
+    width: 60%;
+    height: 40%;
+    margin: auto;
+    border: 1px solid hsl(208, 11%, 85%);
+    border-radius: 3%;
+    box-shadow: hsl(208, 11%, 85%) 0px 0px 0px 0px;
+    background-color: #fff;
+    position: absolute;
+    top: -100px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-call-to-action h3 {
+    font-size: 32px;
+}
+.footer-call-to-action button {
+    width: 50%;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background-color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 25%;
+}
+/*Footer left content area*/
+.footer-content-area {
+    width: 90%;
+    margin: auto;
+    margin-top: 120px;
+    
+}
+.footer-blocks {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+}
+.footer-blocks1,
+.footer-links1, 
+.footer-links2, 
+.footer-socials {
+    padding: 10px;
+    font-size: 16px;
+}
+.footer-blocks1,
+.footer-socials {
+    width: 30%;
+    padding-right: 20px;
+}
+.footer-links1, 
+.footer-links2 {
+    width: 20%;
+}
+.footer-icon {
+    display: flex;
+}
+.footer-icon img {
+    width: 15px;
+    height: 23px;
+    margin: 12px;
+}
+.footer-icon p {
+    color: hsl(208, 11%, 85%);
+}
+
+/*Footer links */
+.footer-links1 a,
+.footer-links2 a {
+    padding: 8px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: hsl(208, 11%, 85%);
+    cursor: pointer;
+    display: block;
+    
+}
+/*Footer Socials*/
+.footer-socials {
+    width: 30%;
+}
+
+/*Copyright*/
+.copyright {
+    width: 100%;
+    padding: 0 80px;
+    text-align: right;
+    font-size: 12px;
+    color: hsl(208, 11%, 85%);
+}

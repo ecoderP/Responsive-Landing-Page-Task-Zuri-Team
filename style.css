@@ -24,7 +24,6 @@ p {
 }
 header {
     width: 100%;
-    height: 100vh;
     padding: 20px;
     background: url('img/bg-hero-desktop.svg');
     background-color: hsl(193, 100%, 96%);
@@ -47,6 +46,9 @@ nav button {
     border-radius: 30%;
     box-shadow: 1px 1px hsl(193, 100%, 96%);
     cursor: pointer;
+}
+nav button:hover {
+    opacity: .7;
 }
 
 /*Hero Section*/
@@ -81,6 +83,9 @@ nav button {
     outline: none;
     cursor: pointer;
 }
+.hero-left-box button:hover {
+    opacity: .6;
+}
 .hero-right-box {
     width: 55%;
 }
@@ -97,13 +102,11 @@ main {
 
 .section {
     width: 90%;
-    height: 80vh;
     margin: auto;
     margin-bottom: 40px;
     padding: 40px 80px 0 80px;
     border: 1px solid hsl(208, 11%, 85%);
     border-radius: 3%;
-    /*box-shadow: 2px 2px hsl(208, 11%, 85%);*/
     box-shadow: hsl(208, 11%, 85%) 0px 7px 15px 0px;
     display: flex;
 }
@@ -132,7 +135,6 @@ main {
 /*=====Footer styles =====*/
 footer {
     width: 100%;
-    height: 90vh;
     margin-top: 200px;
     padding: 80px 20px 50px 20px;
     background-color: hsl(192, 100%, 9%);
@@ -167,6 +169,10 @@ footer {
     background-color: hsl(322, 100%, 66%);
     border: 1px solid hsl(322, 100%, 66%);
     border-radius: 25%;
+    cursor: pointer;
+}
+.footer-call-to-action button:hover {
+    opacity: .6;
 }
 /*Footer left content area*/
 .footer-content-area {
@@ -216,8 +222,11 @@ footer {
     text-decoration: none;
     color: hsl(208, 11%, 85%);
     cursor: pointer;
-    display: block;
-    
+    display: block; 
+}
+.footer-links1 a:hover,
+.footer-links2 a:hover {
+    text-decoration: underline;
 }
 /*Footer Socials*/
 .footer-socials {

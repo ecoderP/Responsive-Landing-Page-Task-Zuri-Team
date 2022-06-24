@@ -1,0 +1,36 @@
+@media screen and (max-width: 758px) {
+    h1 {
+        font-size: 32px;
+    }
+    header {
+        padding: 10px 5px;
+    }
+    nav {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*Hero section*/
+    .hero-section {
+        flex-direction: column;
+    }
+    .hero-box {
+        width: 100%;
+        text-align: center;
+    }
+    .hero-left-box {
+        margin-bottom: 40px;
+    }
+    .section {
+        width: 95%;
+        padding: 80px 43px;
+        flex-direction: column-reverse;
+    }
+    .section div {
+        width: 100%;
+        justify-content: center;
+    }
+    .section .left-box {
+        margin-top: 30px;
+        text-align: center;
+    }
+}

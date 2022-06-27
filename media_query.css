@@ -33,4 +33,40 @@
         margin-top: 30px;
         text-align: center;
     }
+    .footer-call-to-action {
+        width: 95%;
+        height: 25%;
+        left: 15px;
+    }
+    .footer-content-area {
+        margin-top: 170px;
+        
+    }
+    .footer-blocks {
+        flex-direction: column;
+    }
+    .footer-blocks1,
+    .footer-links1, 
+    .footer-links2, 
+    .footer-socials {
+        width: 100%;
+    }
+    .footer-links1 {
+        margin-top: 20px;
+        padding-bottom: 0;
+    }
+    .footer-links2 {
+        padding-top: 0;
+    }
+    .footer-links1 a,
+    .footer-links2 a {
+        padding: 12px;
+    }
+    
+    .footer-socials {
+        justify-content: center;
+    }
+    .copyright {
+        text-align: center;
+    }
 }
